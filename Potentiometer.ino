@@ -1,8 +1,13 @@
-#define LED_PIN 2
+//pre-processor directive used to 
+//define constants or macros
+//In this case, it's defining symbolic 
+//names for the pin numbers
+#define LED_PIN 13
 #define POTENTIOMETER_PIN A0
 
 void setup()
 {
+  //Initiate serial communication
   Serial.begin(9600);
   pinMode(LED_PIN, OUTPUT);
 }
