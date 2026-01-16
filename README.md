@@ -17,7 +17,7 @@ This repository contains Arduino sketches and teaching materials used to support
 ---
 
 ## Repository structure
-
+```text
 sketches/                 Arduino sketches grouped by topic
   01_basics/              intro + digital I/O
   02_analog/              ADC, potentiometers, voltage measurement, sensors
